@@ -1,0 +1,26 @@
+[package]
+name = "circuit"
+version = "0.1.0"
+authors = ["Philippe R <philipper905@gmail.com>"]
+
+[dependencies]
+rayon = "1.0.1"
+num-traits = "0.2.4"
+
+[profile.dev]
+debug = true
+
+#[profile.release]
+##panic = "abort"
+#lto = true
+#codegen-units = 1
+#incremental = false
+#opt-level = "s"
+#
+#[profile.dev]
+##panic = "unwind"
+#lto = false
+#codegen-units = 4
+#incremental = true
+
+
